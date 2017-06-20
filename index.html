@@ -161,53 +161,16 @@
     <div id="welcome" class="step slide" data-x="0" data-y="-2500">
         <center><q>Try to imagine a world<br>Without Google<br>Without Facebook<br>Without Youtube<br>Without Twitter<br>Without instagram<br>Without Snapchat</q></center>
     </div>
-
-    <!--
-        
-        The `id` attribute of the step element is used to identify it in the URL, but it's optional.
-        If it is not defined, it will get a default value of `step-N` where N is a number of slide.
-        
-        So in the example below it'll be `step-2`.
-        
-        The hash part of the url when this step is active will be `#/step-2`.
-        
-        You can also use `#step-2` in a link, to point directly to this particular step.
-        
-        Please note, that while `#/step-2` (with slash) would also work in a link it's not recommended.
-        Using classic `id`-based links like `#step-2` makes these links usable also in fallback mode.
-        
-    -->
-
-    <!--
-        
-        This is an example of step element being scaled.
-        
-        Again, we use a `data-` attribute, this time it's `data-scale="4"`, so it means that this
-        element will be 4 times larger than the others.
-        From presentation and transitions point of view it means, that it will have to be scaled
-        down (4 times) to make it back to its correct size.
-        
-    -->
     <div id="fb" class="step" data-x="-4000" data-y="0" data-scale="4">
         <span class="try">Every 5 facebook user</span>
         <h1>There will be one Chinese<sup>*</sup></h1>
         <span class="footnote"><sup>*</sup> base on the internet user data and my terrbel terrible</span>
     </div>
-    <div class="step slide" data-x="0" data-y="-1500">
+    <div class="map" data-x="0" data-y="-1500">
          <iframe width="100%" height="500px" frameBorder="0" src="https://a.tiles.mapbox.com/v4/enf.c3a2de35.html?access_token=pk.eyJ1IjoiZW5mIiwiYSI6IkNJek92bnMifQ.xn2_Uj9RkYTGRuCGg4DXZQ"></iframe>
     </div>
-    <!--
-        
-        This element introduces rotation.
-        
-        Notation shouldn't be a surprise. We use `data-rotate="90"` attribute, meaning that this
-        element should be rotated by 90 degrees clockwise.
-        
-    -->
-    <div id="its" class="step" data-x="-850" data-y="5000" data-rotate="90" data-scale="5">
-        <p>It’s a <strong>presentation tool</strong> <br/>
-        inspired by the idea behind <a href="http://prezi.com">prezi.com</a> <br/>
-        and based on the <strong>power of CSS3 transforms and transitions</strong> in modern browsers.</p>
+    <div id="weibo" class="step" data-x="-850" data-y="5000" data-rotate="90" data-scale="5">
+        <p>2016 Weibo’s profit is <h1>4.2 billion CNY</h1> = 1 billion NZD</p>
     </div>
 
     <div id="big" class="step" data-x="5500" data-y="7100" data-rotate="180" data-scale="6">
